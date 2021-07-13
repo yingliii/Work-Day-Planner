@@ -8,8 +8,8 @@ var futureColor = $('.future');
 
 //get current date on the header
 function getDate() {
-    var currentDate = moment().format('MMMM Do, dddd');
-    $('#currentDay').textContent(currentDate);
+    var currentDate = moment().format('dddd, MMMM Do, h:mm:ss a');
+    $('#currentDay').text(currentDate);
 }
 getDate();
-console.log(getDate());
+console.log(getDate);
